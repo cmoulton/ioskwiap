@@ -7,12 +7,13 @@
 //
 
 #import "IAPAppDelegate.h"
-
+#import "MKStoreManager.h"
 
 @implementation IAPAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+  [MKStoreManager sharedManager];
   return YES;
 }
 

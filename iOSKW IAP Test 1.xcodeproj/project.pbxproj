@@ -18,6 +18,19 @@
 		CF286A70169C7F7700EE444A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF286A6F169C7F7700EE444A /* Default-568h@2x.png */; };
 		CF286A73169C7F7700EE444A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF286A71169C7F7700EE444A /* MainStoryboard.storyboard */; };
 		CF286A76169C7F7700EE444A /* IAPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF286A75169C7F7700EE444A /* IAPViewController.m */; };
+		CF286A95169C82DC00EE444A /* NSData+MKBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = CF286A81169C82DC00EE444A /* NSData+MKBase64.m */; };
+		CF286A96169C82DC00EE444A /* SFHFKeychainUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CF286A83169C82DC00EE444A /* SFHFKeychainUtils.m */; };
+		CF286A97169C82DC00EE444A /* MKSKProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = CF286A85169C82DC00EE444A /* MKSKProduct.m */; };
+		CF286A98169C82DC00EE444A /* MKSKSubscriptionProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = CF286A87169C82DC00EE444A /* MKSKSubscriptionProduct.m */; };
+		CF286A99169C82DC00EE444A /* MKStoreKitConfigs.plist in Resources */ = {isa = PBXBuildFile; fileRef = CF286A89169C82DC00EE444A /* MKStoreKitConfigs.plist */; };
+		CF286A9A169C82DC00EE444A /* MKStoreManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CF286A8B169C82DC00EE444A /* MKStoreManager.m */; };
+		CF286A9B169C82DC00EE444A /* README.mdown in Resources */ = {isa = PBXBuildFile; fileRef = CF286A8C169C82DC00EE444A /* README.mdown */; };
+		CF286A9C169C82DC00EE444A /* AddDevice.html in Resources */ = {isa = PBXBuildFile; fileRef = CF286A8E169C82DC00EE444A /* AddDevice.html */; };
+		CF286A9D169C82DC00EE444A /* DBSetup.sql in Resources */ = {isa = PBXBuildFile; fileRef = CF286A8F169C82DC00EE444A /* DBSetup.sql */; };
+		CF286A9E169C82DC00EE444A /* featureCheck.php in Resources */ = {isa = PBXBuildFile; fileRef = CF286A90169C82DC00EE444A /* featureCheck.php */; };
+		CF286A9F169C82DC00EE444A /* requestAccess.php in Resources */ = {isa = PBXBuildFile; fileRef = CF286A91169C82DC00EE444A /* requestAccess.php */; };
+		CF286AA0169C82DC00EE444A /* verifyProduct.php in Resources */ = {isa = PBXBuildFile; fileRef = CF286A92169C82DC00EE444A /* verifyProduct.php */; };
+		CF286AA1169C82DC00EE444A /* VerificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF286A94169C82DC00EE444A /* VerificationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +50,26 @@
 		CF286A72169C7F7700EE444A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		CF286A74169C7F7700EE444A /* IAPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IAPViewController.h; sourceTree = "<group>"; };
 		CF286A75169C7F7700EE444A /* IAPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IAPViewController.m; sourceTree = "<group>"; };
+		CF286A80169C82DC00EE444A /* NSData+MKBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+MKBase64.h"; sourceTree = "<group>"; };
+		CF286A81169C82DC00EE444A /* NSData+MKBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+MKBase64.m"; sourceTree = "<group>"; };
+		CF286A82169C82DC00EE444A /* SFHFKeychainUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFHFKeychainUtils.h; sourceTree = "<group>"; };
+		CF286A83169C82DC00EE444A /* SFHFKeychainUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFHFKeychainUtils.m; sourceTree = "<group>"; };
+		CF286A84169C82DC00EE444A /* MKSKProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKSKProduct.h; sourceTree = "<group>"; };
+		CF286A85169C82DC00EE444A /* MKSKProduct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKSKProduct.m; sourceTree = "<group>"; };
+		CF286A86169C82DC00EE444A /* MKSKSubscriptionProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKSKSubscriptionProduct.h; sourceTree = "<group>"; };
+		CF286A87169C82DC00EE444A /* MKSKSubscriptionProduct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKSKSubscriptionProduct.m; sourceTree = "<group>"; };
+		CF286A88169C82DC00EE444A /* MKStoreKitConfigs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKStoreKitConfigs.h; sourceTree = "<group>"; };
+		CF286A89169C82DC00EE444A /* MKStoreKitConfigs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MKStoreKitConfigs.plist; sourceTree = "<group>"; };
+		CF286A8A169C82DC00EE444A /* MKStoreManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKStoreManager.h; sourceTree = "<group>"; };
+		CF286A8B169C82DC00EE444A /* MKStoreManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKStoreManager.m; sourceTree = "<group>"; };
+		CF286A8C169C82DC00EE444A /* README.mdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.mdown; sourceTree = "<group>"; };
+		CF286A8E169C82DC00EE444A /* AddDevice.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = AddDevice.html; sourceTree = "<group>"; };
+		CF286A8F169C82DC00EE444A /* DBSetup.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DBSetup.sql; sourceTree = "<group>"; };
+		CF286A90169C82DC00EE444A /* featureCheck.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = featureCheck.php; sourceTree = "<group>"; };
+		CF286A91169C82DC00EE444A /* requestAccess.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = requestAccess.php; sourceTree = "<group>"; };
+		CF286A92169C82DC00EE444A /* verifyProduct.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = verifyProduct.php; sourceTree = "<group>"; };
+		CF286A93169C82DC00EE444A /* VerificationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerificationController.h; sourceTree = "<group>"; };
+		CF286A94169C82DC00EE444A /* VerificationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerificationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +121,7 @@
 				CF286A71169C7F7700EE444A /* MainStoryboard.storyboard */,
 				CF286A74169C7F7700EE444A /* IAPViewController.h */,
 				CF286A75169C7F7700EE444A /* IAPViewController.m */,
+				CF286A7E169C82DC00EE444A /* MKStoreKit */,
 				CF286A60169C7F7700EE444A /* Supporting Files */,
 			);
 			path = "iOSKW IAP Test 1";
@@ -105,6 +139,49 @@
 				CF286A6F169C7F7700EE444A /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF286A7E169C82DC00EE444A /* MKStoreKit */ = {
+			isa = PBXGroup;
+			children = (
+				CF286A7F169C82DC00EE444A /* Externals */,
+				CF286A84169C82DC00EE444A /* MKSKProduct.h */,
+				CF286A85169C82DC00EE444A /* MKSKProduct.m */,
+				CF286A86169C82DC00EE444A /* MKSKSubscriptionProduct.h */,
+				CF286A87169C82DC00EE444A /* MKSKSubscriptionProduct.m */,
+				CF286A88169C82DC00EE444A /* MKStoreKitConfigs.h */,
+				CF286A89169C82DC00EE444A /* MKStoreKitConfigs.plist */,
+				CF286A8A169C82DC00EE444A /* MKStoreManager.h */,
+				CF286A8B169C82DC00EE444A /* MKStoreManager.m */,
+				CF286A8C169C82DC00EE444A /* README.mdown */,
+				CF286A8D169C82DC00EE444A /* Server Code */,
+				CF286A93169C82DC00EE444A /* VerificationController.h */,
+				CF286A94169C82DC00EE444A /* VerificationController.m */,
+			);
+			path = MKStoreKit;
+			sourceTree = SOURCE_ROOT;
+		};
+		CF286A7F169C82DC00EE444A /* Externals */ = {
+			isa = PBXGroup;
+			children = (
+				CF286A80169C82DC00EE444A /* NSData+MKBase64.h */,
+				CF286A81169C82DC00EE444A /* NSData+MKBase64.m */,
+				CF286A82169C82DC00EE444A /* SFHFKeychainUtils.h */,
+				CF286A83169C82DC00EE444A /* SFHFKeychainUtils.m */,
+			);
+			path = Externals;
+			sourceTree = "<group>";
+		};
+		CF286A8D169C82DC00EE444A /* Server Code */ = {
+			isa = PBXGroup;
+			children = (
+				CF286A8E169C82DC00EE444A /* AddDevice.html */,
+				CF286A8F169C82DC00EE444A /* DBSetup.sql */,
+				CF286A90169C82DC00EE444A /* featureCheck.php */,
+				CF286A91169C82DC00EE444A /* requestAccess.php */,
+				CF286A92169C82DC00EE444A /* verifyProduct.php */,
+			);
+			path = "Server Code";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +241,13 @@
 				CF286A6E169C7F7700EE444A /* Default@2x.png in Resources */,
 				CF286A70169C7F7700EE444A /* Default-568h@2x.png in Resources */,
 				CF286A73169C7F7700EE444A /* MainStoryboard.storyboard in Resources */,
+				CF286A99169C82DC00EE444A /* MKStoreKitConfigs.plist in Resources */,
+				CF286A9B169C82DC00EE444A /* README.mdown in Resources */,
+				CF286A9C169C82DC00EE444A /* AddDevice.html in Resources */,
+				CF286A9D169C82DC00EE444A /* DBSetup.sql in Resources */,
+				CF286A9E169C82DC00EE444A /* featureCheck.php in Resources */,
+				CF286A9F169C82DC00EE444A /* requestAccess.php in Resources */,
+				CF286AA0169C82DC00EE444A /* verifyProduct.php in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +261,12 @@
 				CF286A66169C7F7700EE444A /* main.m in Sources */,
 				CF286A6A169C7F7700EE444A /* IAPAppDelegate.m in Sources */,
 				CF286A76169C7F7700EE444A /* IAPViewController.m in Sources */,
+				CF286A95169C82DC00EE444A /* NSData+MKBase64.m in Sources */,
+				CF286A96169C82DC00EE444A /* SFHFKeychainUtils.m in Sources */,
+				CF286A97169C82DC00EE444A /* MKSKProduct.m in Sources */,
+				CF286A98169C82DC00EE444A /* MKSKSubscriptionProduct.m in Sources */,
+				CF286A9A169C82DC00EE444A /* MKStoreManager.m in Sources */,
+				CF286AA1169C82DC00EE444A /* VerificationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

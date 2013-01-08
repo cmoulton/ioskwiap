@@ -10,4 +10,6 @@
 
 @interface IAPViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *statusLabel;
+
 @end

@@ -1,0 +1,3 @@
+[submodule "MKStoreKit"]
+	path = MKStoreKit
+	url = https://github.com/MugunthKumar/MKStoreKit.git

@@ -31,7 +31,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CF286A55169C7F7700EE444A /* iOSKW IAP Test 1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOSKW IAP Test 1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF286A55169C7F7700EE444A /* inappdemoTest1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = inappdemoTest1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF286A59169C7F7700EE444A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CF286A5B169C7F7700EE444A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CF286A5D169C7F7700EE444A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -64,6 +64,7 @@
 		CF286ADD169C851F00EE444A /* VerificationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerificationController.m; sourceTree = "<group>"; };
 		CF286AEB169C85B100EE444A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		CF286AED169C85BC00EE444A /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		CF299941169C8F1D00999289 /* iOSKW IAP Test 1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "iOSKW IAP Test 1.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +97,7 @@
 		CF286A56169C7F7700EE444A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CF286A55169C7F7700EE444A /* iOSKW IAP Test 1.app */,
+				CF286A55169C7F7700EE444A /* inappdemoTest1.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -114,6 +115,7 @@
 		CF286A5F169C7F7700EE444A /* iOSKW IAP Test 1 */ = {
 			isa = PBXGroup;
 			children = (
+				CF299941169C8F1D00999289 /* iOSKW IAP Test 1.entitlements */,
 				CF286A68169C7F7700EE444A /* IAPAppDelegate.h */,
 				CF286A69169C7F7700EE444A /* IAPAppDelegate.m */,
 				CF286A71169C7F7700EE444A /* MainStoryboard.storyboard */,
@@ -186,7 +188,7 @@
 			);
 			name = "iOSKW IAP Test 1";
 			productName = "iOSKW IAP Test 1";
-			productReference = CF286A55169C7F7700EE444A /* iOSKW IAP Test 1.app */;
+			productReference = CF286A55169C7F7700EE444A /* inappdemoTest1.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -281,7 +283,7 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Christina Moulton (B4SJ2FF68K)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -296,6 +298,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "F96BF6D4-E952-4E8A-ACE8-39FBF7BE06FB";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -309,7 +312,7 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Christina Moulton";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -317,6 +320,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "09B41094-3704-4442-A18D-F91055C67554";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -325,10 +329,11 @@
 		CF286A7A169C7F7700EE444A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "iOSKW IAP Test 1/iOSKW IAP Test 1.entitlements";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iOSKW IAP Test 1/iOSKW IAP Test 1-Prefix.pch";
 				INFOPLIST_FILE = "iOSKW IAP Test 1/iOSKW IAP Test 1-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = inappdemoTest1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -336,10 +341,11 @@
 		CF286A7B169C7F7700EE444A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "iOSKW IAP Test 1/iOSKW IAP Test 1.entitlements";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iOSKW IAP Test 1/iOSKW IAP Test 1-Prefix.pch";
 				INFOPLIST_FILE = "iOSKW IAP Test 1/iOSKW IAP Test 1-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = inappdemoTest1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -363,6 +369,7 @@
 				CF286A7B169C7F7700EE444A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
